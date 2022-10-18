@@ -63,7 +63,7 @@ public class Not {
 
             i++;
 
-        } while (devam.equals(h) != true);
+        } while (devam.equalsIgnoreCase(h) != true);
         double agno = toplam / toplamKredi;
         System.out.println( "AGNO: " + agno);
         if ( agno >= 3.5 ) {
